@@ -1,6 +1,6 @@
 # Kinematics Simulator
 
-A Python-based kinematics simulator with a graphical user interface (GUI)
+A Python-based kinematics simulator with a graphical user interface (GUI).
 
 **Features**
 
