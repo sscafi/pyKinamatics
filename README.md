@@ -1,58 +1,75 @@
-# Kinematics Simulator
+# Improved Kinematics Simulator
 
-A Python-based kinematics simulator with a graphical user interface (GUI).
+## Overview
 
-**Features**
+The Improved Kinematics Simulator is a Python-based application that provides a graphical user interface for simulating and visualizing projectile motion. This tool is designed to help students and educators explore the principles of kinematics in a user-friendly environment.
 
-- Calculates position, velocity, and acceleration of an object
-- Simulates projectile motion
-- GUI for easy input and visualization of results
+## Features
 
-**Usage**
+- Interactive GUI for inputting initial conditions
+- Real-time simulation of projectile motion
+- Graphical representation of the projectile's trajectory
+- Calculation and display of key motion parameters:
+  - Maximum height
+  - Range
+  - Time of flight
+- Error handling for invalid inputs
+- Ability to clear inputs and results for multiple simulations
 
-1. Run the `kinematics_simulator.py` script to use the simulator in the console.
-2. Run the `kinematics_ui.py` script to use the GUI.
+## Requirements
 
-**Input Parameters**
+- Python 3.6+
+- tkinter (usually comes pre-installed with Python)
+- matplotlib
 
-- `v0`: initial velocity (m/s)
-- `theta`: angle of projection (degrees)
-- `x0`: initial x-position (m)
-- `y0`: initial y-position (m)
+## Installation
 
-**Output**
+1. Clone this repository or download the source code.
 
-- Trajectory of the projectile motion, displayed as a list of (x, y) coordinates
+2. Install the required dependencies:
 
-**Dependencies**
+   ```
+   pip install matplotlib
+   ```
 
-- Python 3.x
-- Tkinter (built-in Python library)
+## Usage
 
-**License**
+1. Run the main script:
 
-This software is released under the MIT License. See `LICENSE` for details.
+   ```
+   python improved_kinematics_simulator.py
+   ```
 
-**Author**
+2. Input the initial conditions:
+   - Initial Velocity (m/s)
+   - Angle of Projection (degrees)
+   - Initial X-Position (m)
+   - Initial Y-Position (m)
 
-[Saher]
+3. Click the "Simulate" button to run the simulation.
 
-**Version**
+4. View the results:
+   - The trajectory plot will appear on the right side of the window.
+   - Key motion parameters and trajectory coordinates will be displayed in the text box.
 
-1.0
+5. Use the "Clear" button to reset all inputs and results for a new simulation.
 
-**Changelog**
+6. Click "Quit" to exit the application.
 
-- 1.0: Initial release
+## File Structure
 
-**Known Issues**
+- `improved_kinematics_simulator.py`: Main script containing the GUI and simulation logic.
+- `kinematics_simulator.py`: Module containing the `KinematicsSimulator` class (not included in this repository).
 
-- None
+## Contributing
 
-**Contributing**
+Contributions to improve the Kinematics Simulator are welcome. Please feel free to submit pull requests or open issues to discuss potential enhancements.
 
-Contributions are welcome! If you'd like to contribute to the kinematics simulator, please fork this repository and submit a pull request.
+## License
 
-**Acknowledgments**
+This project is open-source and available under the MIT License.
 
-- Big shoutout to khan academy for teaching me this
+## Acknowledgments
+
+- This project uses the tkinter library for the GUI and matplotlib for plotting.
+- Special thanks to all contributors and users of this simulator.
