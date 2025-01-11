@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Improved Kinematics Simulator is a Python-based application that provides a graphical user interface for simulating and visualizing projectile motion. This tool is designed to help students and educators explore the principles of kinematics in a user-friendly environment.
+The Improved Kinematics Simulator is a Python-based application that provides a graphical user interface for simulating and visualizing projectile motion. This tool is designed to help students and educators explore the principles of kinematics in a user-friendly environment..
 
 ## Features
 
